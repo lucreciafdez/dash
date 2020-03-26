@@ -51,14 +51,10 @@ app.layout = html.Div(
                                     [
                                         html.Div(
                                             [
-                                                html.Div(
-                                                    html.Img(
-                                                        src=app.get_asset_url(
-                                                            "dash-logo-new.png"
-                                                        ),
-                                                        className="page-1a",
-                                                    )
-                                                ),
+                                            html.A(
+                                                        html.Button("Download PDF", id="learn-more-button"),
+                                                        href="javascript: w= window.print(); w.close(); ",
+                                                    ),
                                                 html.Div(
                                                     [
                                                         html.H6("Suscipit nibh"),
