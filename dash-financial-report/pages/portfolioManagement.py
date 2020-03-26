@@ -25,7 +25,7 @@ def create_layout(app):
                     html.Div(
                         [
                             html.Div(
-                                [html.H6(["Portfolio"], className="subtitle padded")],
+                                [html.H6(["Portafolio"], className="subtitle padded")],
                                 className="twelve columns",
                             )
                         ],
@@ -36,7 +36,7 @@ def create_layout(app):
                         [
                             html.Div(
                                 [
-                                    html.P(["Stock style"], style={"color": "#7a7a7a"}),
+                                    html.P(["Estilo de las acciones"], style={"color": "#7a7a7a"}),
                                     dcc.Graph(
                                         id="graph-5",
                                         figure={
@@ -277,7 +277,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        ["Equity characteristics as of 01/31/2018"],
+                                        ["Características de capital en 01/31/2018"],
                                         className="subtitle padded",
                                     ),
                                     html.Table(
@@ -296,7 +296,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        ["Equity sector diversification"],
+                                        ["Diversificación de capital"],
                                         className="subtitle padded",
                                     ),
                                     html.Table(

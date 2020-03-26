@@ -16,7 +16,7 @@ def get_header(app):
                             className="seven columns main-title",
                     ),
                     html.A(
-                        html.Button("Download PDF", id="learn-more-button"),
+                        html.Button("Descargar PDF", id="learn-more-button"),
                         href="javascript: w= window.print(); w.close(); ",
                     ),
                 ],
@@ -31,7 +31,7 @@ def get_header(app):
                     html.Div(
                         [
                             dcc.Link(
-                                "Full View",
+                                "Vista completa",
                                 href="/dash-financial-report/full-view",
                                 className="full-view-link",
                             )
@@ -52,30 +52,30 @@ def get_menu():
     menu = html.Div(
         [
             dcc.Link(
-                "Overview",
+                "General",
                 href="/dash-financial-report/overview",
                 className="tab first",
             ),
             dcc.Link(
-                "Price Performance",
+                "Precios y comportamiento",
                 href="/dash-financial-report/price-performance",
                 className="tab",
             ),
             dcc.Link(
-                "Portfolio & Management",
+                "Portafolio y gerencia",
                 href="/dash-financial-report/portfolio-management",
                 className="tab",
             ),
             dcc.Link(
-                "Fees & Minimums", href="/dash-financial-report/fees", className="tab"
+                "Tarifas", href="/dash-financial-report/fees", className="tab"
             ),
             dcc.Link(
-                "Distributions",
+                "Distribución",
                 href="/dash-financial-report/distributions",
                 className="tab",
             ),
             dcc.Link(
-                "News & Reviews",
+                "Noticias y comentarios",
                 href="/dash-financial-report/news-and-reviews",
                 className="tab",
             ),

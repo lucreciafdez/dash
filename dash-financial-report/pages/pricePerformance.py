@@ -31,7 +31,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        ["Current Prices"], className="subtitle padded"
+                                        ["Precios actuales"], className="subtitle padded"
                                     ),
                                     html.Table(make_dash_table(df_current_prices)),
                                 ],
@@ -40,7 +40,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        ["Historical Prices"],
+                                        ["Precios históricos"],
                                         className="subtitle padded",
                                     ),
                                     html.Table(make_dash_table(df_hist_prices)),
@@ -55,7 +55,7 @@ def create_layout(app):
                         [
                             html.Div(
                                 [
-                                    html.H6("Performance", className="subtitle padded"),
+                                    html.H6("Comportamiento", className="subtitle padded"),
                                     dcc.Graph(
                                         id="graph-4",
                                         figure={
@@ -161,7 +161,7 @@ def create_layout(app):
                                 [
                                     html.H6(
                                         [
-                                            "Average annual returns--updated monthly as of 02/28/2018"
+                                            "Retorno promedio anual--actualizado mensualmente al 02/28/2018"
                                         ],
                                         className="subtitle padded",
                                     ),
@@ -187,7 +187,7 @@ def create_layout(app):
                                 [
                                     html.H6(
                                         [
-                                            "After-tax returns--updated quarterly as of 12/31/2017"
+                                            "Retorno después de impuestos--actualizado trimestral al 12/31/2017"
                                         ],
                                         className="subtitle padded",
                                     ),
@@ -212,7 +212,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        ["Recent investment returns"],
+                                        ["Retorno de inversiones recientes"],
                                         className="subtitle padded",
                                     ),
                                     html.Table(

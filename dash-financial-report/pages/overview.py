@@ -29,7 +29,7 @@ def create_layout(app):
                         [
                             html.Div(
                                 [
-                                    html.H5("Product Summary"),
+                                    html.H5("Colusión en la compra de Ibuprofeno"),
                                     html.Br([]),
                                     html.P(
                                         "\
@@ -57,7 +57,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        ["Fund Facts"], className="subtitle padded"
+                                        ["Hechos fundamentales"], className="subtitle padded"
                                     ),
                                     html.Table(make_dash_table(df_fund_facts)),
                                 ],
@@ -66,7 +66,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        "Average annual performance",
+                                        "Comportamiento anual promedio",
                                         className="subtitle padded",
                                     ),
                                     dcc.Graph(
@@ -174,8 +174,7 @@ def create_layout(app):
                         [
                             html.Div(
                                 [
-                                    html.H6(
-                                        "Hypothetical growth of $10,000",
+                                    html.H6("Crecimiento hipotético de $10,000",
                                         className="subtitle padded",
                                     ),
                                     dcc.Graph(
@@ -268,7 +267,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        "Price & Performance (%)",
+                                        "Precio y comportamiento (%)",
                                         className="subtitle padded",
                                     ),
                                     html.Table(make_dash_table(df_price_perf)),
@@ -278,7 +277,7 @@ def create_layout(app):
                             html.Div(
                                 [
                                     html.H6(
-                                        "Risk Potential", className="subtitle padded"
+                                        "Riesgo potencial", className="subtitle padded"
                                     ),
                                     html.Img(
                                         src=app.get_asset_url("risk_reward.png"),

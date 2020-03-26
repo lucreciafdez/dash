@@ -14,7 +14,7 @@ def create_layout(app):
                         [
                             html.Div(
                                 [
-                                    html.H6("News", className="subtitle padded"),
+                                    html.H6("Noticias", className="subtitle padded"),
                                     html.Br([]),
                                     html.Div(
                                         [
@@ -32,7 +32,7 @@ def create_layout(app):
                             ),
                             html.Div(
                                 [
-                                    html.H6("Reviews", className="subtitle padded"),
+                                    html.H6("Comentarios", className="subtitle padded"),
                                     html.Br([]),
                                     html.Div(
                                         [
