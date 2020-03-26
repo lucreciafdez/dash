@@ -52,14 +52,13 @@ app.layout = html.Div(
                                         html.Div(
                                             [
                                             html.A(
-                                                        html.Button("Download PDF", id="learn-more-button"),
+                                                        html.Button("Descargar PDF", id="learn-more-button"),
                                                         href="javascript: w= window.print(); w.close(); ",
                                                     ),
                                                 html.Div(
                                                     [
-                                                        html.H6("Suscipit nibh"),
-                                                        html.H5("LOREM IPSUM DOLOR"),
-                                                        html.H6("Blandit pretium dui"),
+                                                        html.H4("Caso Alcohol"),
+                                                        html.H6("Exceso en gasto de compra de alcohol"),
                                                     ],
                                                     className="page-1b",
                                                 ),
@@ -77,7 +76,7 @@ app.layout = html.Div(
                                                 html.Span("19"),
                                             ]
                                         ),
-                                        html.H6("Suscipit nibh vita"),
+                                        html.H6("Número de caso"),
                                     ],
                                     className="page-1f",
                                 ),
@@ -136,7 +135,7 @@ app.layout = html.Div(
                                 html.Div(
                                     [
                                         html.H6(
-                                            "Viverra, imperdiet, praesent pellentesque",
+                                            "Ministerio de Relaciones Exteriores",
                                             className="page-1h",
                                         ),
                                         html.P(lorem.paragraph() * 2),
@@ -146,7 +145,7 @@ app.layout = html.Div(
                                 html.Div(
                                     [
                                         html.H6(
-                                            "Facilisis mauris parturient, eget vitae",
+                                            "Municipalidad de Vitacura",
                                             className="page-1h",
                                         ),
                                         html.P(lorem.paragraph() * 2),
@@ -156,7 +155,7 @@ app.layout = html.Div(
                                 html.Div(
                                     [
                                         html.H6(
-                                            "A suspendisse mauris aliquam tincidunt hac",
+                                            "Municipalidad de Providencia",
                                             className="page-1h",
                                         ),
                                         html.P(lorem.paragraph() * 2),
@@ -166,7 +165,7 @@ app.layout = html.Div(
                                 html.Div(
                                     [
                                         html.H6(
-                                            "A elementum lorem dolor aliquam nisi diam",
+                                            "Superintendencia de Santiago",
                                             className="page-1h",
                                         ),
                                         html.P(lorem.paragraph()),
@@ -187,7 +186,7 @@ app.layout = html.Div(
             [
                 html.Div(
                     [
-                        html.Div([html.H1("LOREM IPSUM")], className="page-2a"),
+                        html.Div([html.H1("Caso Alcohol")], className="page-2a"),
                         html.Div(
                             [
                                 html.P(lorem.paragraph() * 3, className="page-2b"),
@@ -214,7 +213,7 @@ app.layout = html.Div(
             [
                 html.Div(
                     [
-                        html.Div([html.H1("LOREM IPSUM")], className="page-3a"),
+                        html.Div([html.H1("Caso Alcohol")], className="page-3a"),
                         html.Div(
                             [
                                 html.Div(
@@ -222,7 +221,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [
                                                 html.H6(
-                                                    "Mauris feugiat quis lobortis nisl sed",
+                                                    "Diferencia no justificable en precios de compra",
                                                     className="page-3b",
                                                 ),
                                                 html.P(
@@ -294,7 +293,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [
                                                 html.Strong(
-                                                    "Ultricies fusce vel, ad ultricies enim, at, egestas",
+                                                    "Diferencia en gastos de alcohol en paises de Sudamérica",
                                                     className="page-3h",
                                                 ),
                                                 html.P(
@@ -307,7 +306,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [
                                                 html.Strong(
-                                                    "Feugiat justo, aliquam feugiat justo suspendisse leo blandit",
+                                                    "Comparación gastos en alcohol al 2020",
                                                     className="page-3h",
                                                 ),
                                                 html.P(
@@ -661,14 +660,14 @@ app.layout = html.Div(
                                 html.Div(
                                     [
                                         html.Strong(
-                                            "Ultricies fusce vel, ad ultricies enim, at, egestas",
+                                            "Aumento del consumo de alcohol en eventos públicos de 2010 al 2020",
                                             style={
                                                 "color": color_1,
                                                 "padding-top": "100px",
                                             },
                                         ),
                                         html.P(
-                                            "Quis mauris dolor amet cubilia mattis, finibus magnis lacus",
+                                            "Descipción",
                                             className="page-3k",
                                         ),
                                     ],
@@ -677,7 +676,7 @@ app.layout = html.Div(
                                 html.Div(
                                     [
                                         html.Strong(
-                                            "Feugiat justo, aliquam feugiat justo suspendisse leo blandit",
+                                            "Tabla de gastos públicos",
                                             className="page-3h",
                                         ),
                                         html.P(
@@ -900,7 +899,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [
                                                 html.Strong(
-                                                    "Ultricies fusce vel, ad ultricies enim, at, egestas",
+                                                    "Aumento consumo gasto público alcohol",
                                                     className="page-3h",
                                                 ),
                                                 html.P(
@@ -913,7 +912,7 @@ app.layout = html.Div(
                                         html.Div(
                                             [
                                                 html.Strong(
-                                                    "Feugiat justo, aliquam feugiat justo suspendisse leo blandit",
+                                                    "Diefrencias gastos en eventos públicos",
                                                     className="page-3h",
                                                 ),
                                                 html.P(
